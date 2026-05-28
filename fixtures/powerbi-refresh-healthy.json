@@ -1,0 +1,33 @@
+{
+  "snapshots": [
+    {
+      "id": "snap-exec-scorecards",
+      "name": "Executive scorecards and weekly board KPIs",
+      "scope": "WORKSPACE",
+      "scopePath": "/tenants/kg-prod/workspaces/executive-scorecards",
+      "workspace": "Executive Scorecards",
+      "baselineStatus": "CURRENT",
+      "owner": "BI Platform",
+      "refreshSuccessPct": 98,
+      "avgRefreshMinutes": 15,
+      "staleDatasets": 0,
+      "affectedReports": 11,
+      "collectedAt": "2026-05-30T13:00:00Z"
+    },
+    {
+      "id": "snap-finance-pack",
+      "name": "Finance reporting pack and month-close deck",
+      "scope": "WORKSPACE",
+      "scopePath": "/tenants/kg-prod/workspaces/finance-close",
+      "workspace": "Finance Close",
+      "baselineStatus": "CURRENT",
+      "owner": "Reporting Operations",
+      "refreshSuccessPct": 97,
+      "avgRefreshMinutes": 18,
+      "staleDatasets": 0,
+      "affectedReports": 7,
+      "collectedAt": "2026-05-30T10:30:00Z"
+    }
+  ],
+  "drifts": []
+}
